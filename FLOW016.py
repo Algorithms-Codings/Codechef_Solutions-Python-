@@ -3,6 +3,7 @@ for t in range(0,int(input())):
     N.sort()
     a=N[1]
     b=N[0]
+    c=0
     while(b!=0):
         a,b=b,a%b
     gcd=a
